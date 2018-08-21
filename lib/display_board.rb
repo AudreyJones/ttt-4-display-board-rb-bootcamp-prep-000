@@ -1,10 +1,10 @@
 board = ["X", "X", "X", "X", "X", "X", "X", "X"]
 def display_board(board)
-  puts " X | X | X "
-      expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq(" X | X | X ")
-      expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq(" X | X | X ")"
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 display_board(board)
 
